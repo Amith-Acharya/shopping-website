@@ -117,11 +117,11 @@ RAZOR_KEY_SECRET = os.getenv('RAZOR_KEY_SECRET')
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'shopgrid',
-        'USER': 'postgres',
-        'PASSWORD': 'chv@9591',
-        'HOST': 'localhost'
-
+        'NAME': 'postgres',
+        'USER': 'postgres.drrbhpdvzmqbzlsllzgz',
+        'PASSWORD': 'newpassword',
+        'HOST': 'aws-0-ap-southeast-1.pooler.supabase.com',
+        'PORT': '6543',
     }
 }
 
