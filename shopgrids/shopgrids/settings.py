@@ -34,7 +34,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'default-secret-key-for-development')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['shopping-website-jdx6.onrender.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
