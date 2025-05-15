@@ -1,5 +1,0 @@
-.gitignore
-db.sqlite3
-shopgrid.pgsql
-shopgrid.pgsql.save
-__pycache__/
